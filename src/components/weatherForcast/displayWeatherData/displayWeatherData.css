@@ -1,0 +1,23 @@
+/** @format */
+
+.weather-display-container {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+.weather-container {
+	text-align: center;
+}
+div:focus {
+	background-color: #fbfbfb;
+	outline: none;
+}
+
+.temp-converter-button {
+	height: 25px;
+	margin: 30px 5px;
+}
+
+.general-info-container {
+	margin: 30px 0px 0px 20px;
+}
