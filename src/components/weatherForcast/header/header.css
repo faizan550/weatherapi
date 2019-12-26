@@ -1,11 +1,11 @@
-.weatherforecast-header{
-    background-color: #3B3B61;
+/** @format */
+
+.weatherforecast-header {
+	background-color: #3b3b61;
 }
-.weatherforecast-header-p{
-    margin-top: 0px;
-    text-align: left;
-    color: white;
-    font-size: 25px;
-    padding-bottom: 5px;
-    padding-left: 20px;
+.weatherforecast-header-p {
+	margin-top: 0px;
+	color: white;
+	font-size: 25px;
+	padding: 0px 0px 5px 20px;
 }

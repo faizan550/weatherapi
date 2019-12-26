@@ -12,12 +12,8 @@ const SearchForm = (props: any) => {
 
 	return (
 		<div>
-			<form className = "search-form" onSubmit={props.getWeatherData}>
-				<select
-					placeholder='khkd'
-					name='select'
-					className='select-option'
-					onChange={handleChange}>
+			<form className='search-form' onSubmit={props.getWeatherData}>
+				<select name='select' className='select-option' onChange={handleChange}>
 					<option value='' disabled selected hidden>
 						Search By
 					</option>

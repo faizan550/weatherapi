@@ -22,7 +22,7 @@ const App: React.FC = () => {
 				await fetch(
 					`http://api.openweathermap.org/data/2.5/forecast?q=${e.target.city.value}&units=metric&appid=${API_KEY}`
 				).then((response) => response.json())
-      );
+			);
 		} else if (e.target.zipcode) {
 			setData(
 				await fetch(
@@ -35,7 +35,7 @@ const App: React.FC = () => {
 					`http://api.openweathermap.org/data/2.5/forecast?lat=${e.target.latitude.value}&lon=${e.target.longitude.value}&units=metric&appid=${API_KEY}`
 				).then((response) => response.json())
 			);
-    }
+		}
 	};
 
 	const getAllRequiredData = (data: any): any => {
@@ -67,5 +67,5 @@ const App: React.FC = () => {
 			</div>
 		</div>
 	);
-}; 
+};
 export default App;

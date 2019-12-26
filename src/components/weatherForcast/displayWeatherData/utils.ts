@@ -1,7 +1,5 @@
 /** @format */
 
-import { number } from 'prop-types';
-
 export const getWeatherIcon = (id: number) => {
 	if (id >= 200 && id < 300) {
 		return 'http://openweathermap.org/img/wn/11d@2x.png';
@@ -39,5 +37,5 @@ export const getWeatherDescription = (id: number) => {
 };
 
 export const celtofahrenhite = (temp: number) => {
-    return ((temp * 9/5) + 32)
-}
+	return (temp * 9) / 5 + 32;
+};

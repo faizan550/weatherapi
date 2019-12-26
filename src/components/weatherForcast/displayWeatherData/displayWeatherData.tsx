@@ -8,7 +8,7 @@ import {
 } from './utils';
 import moment from 'moment';
 import './displayWeatherData.css';
-import { weatherobject, listOfWeatherObject } from '../../../types/types';
+import { weatherobject } from '../../../types/types';
 
 const DisplayWeatherData = (props: any) => {
 	const { averageDataForDays, location } = props;
